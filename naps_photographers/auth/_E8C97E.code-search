@@ -1,0 +1,26 @@
+# Query: #E8C97E
+# ContextLines: 1
+
+5 results - 3 files
+
+admin/partials/admin_header.php:
+  8  <style>
+  9: :root{--gold:#C9A84C;--gold-light:#9fe0ff;--black:#0A0A0A;--dark:#0D0D0D;--dark2:#131313;--dark3:#1A1A1A;--sidebar-w:260px;--white:#F8F6F1;--gray:#888;--border:rgba(201,168,76,0.15);--border-dim:rgba(255,255,255,0.05);--radius:4px;}
+  10  *{margin:0;padding:0;box-sizing:border-box;}
+
+auth/signup.php:
+  65  <style>
+  66:   :root { --gold:#C9A84C; --gold-light:#9fe0ff; --black:#0A0A0A; --dark:#111111; --white:#F8F6F1; --gray:#888; }
+  67    * { margin:0; padding:0; box-sizing:border-box; }
+
+  94    .btn-primary { width:100%; padding:14px; background:#C9A84C; color:#0A0A0A; border:none; border-radius:3px; cursor:pointer; font-family:'Montserrat',sans-serif; font-size:.78rem; font-weight:600; letter-spacing:3px; text-transform:uppercase; transition:all .3s; margin-top:8px; }
+  95:   .btn-primary:hover { background:#9fe0ff; transform:translateY(-1px); }
+  96    .auth-links { text-align:center; margin-top:24px; color:#888; font-size:.78rem; }
+  97    .auth-links a { color:#C9A84C; text-decoration:none; }
+  98:   .auth-links a:hover { color:#9fe0ff; }
+  99    @media(max-width:520px) { .form-row { grid-template-columns:1fr; } .auth-card { padding:36px 24px; } }
+
+customer/customer_dashboard.php:
+  59  <style>
+  60: :root{--gold:#C9A84C;--gold-light:#9fe0ff;--black:#0A0A0A;--dark:#111;--dark2:#161616;--dark3:#1E1E1E;--white:#F8F6F1;--gray:#888;--border:rgba(201,168,76,0.18);--border-dim:rgba(255,255,255,0.06);--radius:4px;}
+  61  *{margin:0;padding:0;box-sizing:border-box;}
